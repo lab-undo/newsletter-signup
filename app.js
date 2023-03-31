@@ -12,7 +12,7 @@ app.get("/", function (req, res) {
 
 app.post("/", function (req, res) {
     const url = "https://us12.api.mailchimp.com/3.0/lists/793aff0967";
-    const authkey = "5fddd69c0236b1388f59d57fede35035-us12";
+    const authkey = "7c60730ad98a5fd5d1d063a684b4dff9-us12";
     const senddata = {
         members: [{
             email_address: req.body.Email,
